@@ -42,5 +42,3 @@ for i in range(length):
 	print("Discription : " + discription[i].text)
 	if(i != length):
 		print("-----")
-
-"""tr.port > td:nth-child(4)"""
