@@ -17,7 +17,10 @@ Auth/Ident servers — which are supposed to run on the local user's machine —
 
 ```
 
-
+##### Requirements
+For this to work you need:
+- Beautiful Soup 4
+- `requests` pip module
 
 ### License
 This is licensed under CC BY-SA. For more information, look here: https://creativecommons.org/licenses/by-sa/2.0/
