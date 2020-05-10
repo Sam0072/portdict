@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description="Look up ports via the internet.")
 parser.add_argument("port",help="The port you want to look up")
 args = parser.parse_args()
 port = args.port
-if ((int(port) > 65535) and (int(port) < 0)):
+if ((int(port) > 65535) or (int(port) < 0)):
 	exit("The port needs to be an integer in range of 0-65535")
 
 url = "https://www.speedguide.net/port.php?port=" + port
@@ -28,9 +28,9 @@ soup = BeautifulSoup(response.content, "lxml")
 port = soup.select("tr.port > td:nth-child(1)")
 protocol = soup.select("tr.port > td:nth-child(2)")
 service = soup.select("tr.port > td:nth-child(3)")
-discription = soup.select("tr.port > td:nth-child(4)")
+description = soup.select("tr.port > td:nth-child(4)")
 
-discription = discription.replace("\n\n","\n") # replacing double line breaks with a single one
+description = discription.replace("\n\n","\n") # replacing double line breaks with a single one
 
 length = len(port)
 
