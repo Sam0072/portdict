@@ -20,4 +20,4 @@ Auth/Ident servers — which are supposed to run on the local user's machine —
 
 
 ### License
-You may use this for commercial purposes, I don't really care. The only catch is don't say you made this. Then you can sell this stuff, use it for your company, just don't take the credit.
+This is licensed under CC BY-SA. For more information, look here: https://creativecommons.org/licenses/by-sa/2.0/
