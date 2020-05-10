@@ -6,7 +6,7 @@ Usage:  `portdict [port number]`
 
 ##### Example output:
 ```
-$ portscan 113
+$ portdict 113
 
 Loading. . .
 Name:  auth / ident
