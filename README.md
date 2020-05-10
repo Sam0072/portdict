@@ -11,7 +11,7 @@ $ portdict [port]
 Port:  [port]
 Protocol: [protocol]
 Service: [service]
-Discription: [discription]
+Description: [discription]
 ```
 
 ##### Requirements
