@@ -1,6 +1,4 @@
-##portdict
-
-####by Sam0072
+#portdict
 
 Portdict uses python 3, `beautifulsoup` and `requests` to find the definition of ports.
 
