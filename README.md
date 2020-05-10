@@ -6,15 +6,12 @@ Usage:  `portdict [port number]`
 
 ##### Example output:
 ```
-$ portdict 113
+$ portdict [port]
 
-Loading. . .
-Name:  auth / ident
-Purpose: Authentication Service / Identification Protocol
-Related ports: -
-
-Auth/Ident servers — which are supposed to run on the local user's machine — open port 113 and listen for incoming connections and queries from remote machines. These querying machines provide a local and remote "port pair" describing some other already-existing connection between the machines. The user's "ident" server is tasked with looking up and returning the connection's "USER ID" and perhaps additional information, such as an eMail address, full name, or whatever.
-
+Port:  [port]
+Protocol: [protocol]
+Service: [service]
+Discription: [discription]
 ```
 
 ##### Requirements
